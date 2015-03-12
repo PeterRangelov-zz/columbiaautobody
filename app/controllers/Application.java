@@ -27,4 +27,12 @@ public class Application extends Controller {
         return TODO;
     }
 
+    public static Result services() {
+        return TODO;
+    }
+
+    public static Result insuranceCompanies() {
+        return TODO;
+    }
+
 }

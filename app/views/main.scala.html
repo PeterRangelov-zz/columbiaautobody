@@ -13,7 +13,7 @@
         <script src=//cdnjs.cloudflare.com/ajax/libs/foundation/5.3.3/js/foundation.min.js></script>
         <script src=//cdnjs.cloudflare.com/ajax/libs/foundation/5.3.3/js/vendor/modernizr.js></script>
 
-        <script src=//cdn.jsdelivr.net/livejs/4/live.js></script>
+        @*<script src=//cdn.jsdelivr.net/livejs/4/live.js></script>*@
 
     </head>
     <body>
@@ -22,13 +22,16 @@
         @navbar()
 
         <div class="container">
-            <div class="row">
+
                 @content
             </div>
 
-        </div>
+
 
 
 
     </body>
+    <script>
+        $(document).foundation()
+    </script>
 </html>
